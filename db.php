@@ -1,8 +1,8 @@
 <?php
-$host = "webhostingdb.ci30qo8uk3ya.us-east-1.rds.amazonaws.com";
-$dbname = "webhostingDB";
-$username = "admin";
-$password = "iammvn2026";
+$host = "your-rds-endpoint";
+$dbname = "your-dbname";
+$username = "your-username";
+$password = "your-password";
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
