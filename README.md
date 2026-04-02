@@ -28,6 +28,10 @@ A fully functioning, genericsecure 3-tier genericcloud web application deployed 
 **3. Database Record Verification**
 ![Database Proof](database.JPG)
 
+**4. AWS Infrastructure Provisioning**
+![EC2 Dashboard](AWS_EC2_Dashboard.png)
+![RDS Dashboard](AWS_RDS_Dashboard.png)
+
 ## 🚧 Challenges Solved (Infrastructure Troubleshooting)
 During deployment, I successfully troubleshot several critical infrastructure issues:
 * **IIS Configuration:** Resolved `403 Forbidden` errors by configuring IIS Default Documents and PHP handlers.
